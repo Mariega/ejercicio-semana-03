@@ -8,7 +8,39 @@
 </head>
 <body>
     <section>
-        <form action=""></form>
+        <form action="#">
+          <h2>Ingresa tus datos</h2>
+          <input type="text" placeholder="Nombre">
+          <input type="text" placeholder="Apellido">
+          <input type="text" placeholder="Correo">
+          <p>
+            <h2>Ahora coloca:</h2>
+            <label for="username">Tu nombre de usuario:</label>
+            <input type="text" name="username" id="username" />
+            <br />
+            <label for="pass">Tu contraseña:</label>
+            <input type="password" name="pass" id="pass" />
+          </p>
+          <p>
+            <h2>Metodo de pago</h2>
+            <input type="radio" name="metodo de pago" value="1">Visa
+            <input type="radio" name="metodo de pago" value="2">Mastercard
+            <input type="radio" name="metodo de pago" value="3">Paypal
+          </p>
+          <p>
+            <h2>Elige el tiempo de envío</h2>
+            <input list="tiempo" name="list" />
+            <datalist id="tiempo">
+              <option label="6:00am -12:00m" value="6:00am -12:00m"></option>
+              <option label="12:00m -5:00pm" value="12:00m -5:00pm"></option>
+              <option label="5:00pm -9:00pm" value="5:00pm -9:00pm"></option>
+            </datalist>
+          </p>
+         <p>
+          <textarea name="comentario" id="comentario" rows="10" cols="50" placeholder="Deja un comentario"></textarea>    
+         </p>
+        <button>Enviar</button>
+        </form>
     </section>
     
 </body>
