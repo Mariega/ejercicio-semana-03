@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form 2</title>
+  <link rel = "stylesheet" type = "text/css" href = "form.css" />
+</head>
+<body>
+  <h2>Ingresa tus datos</h2>
+  <form action="#">
+  <div>
+  <input type="text" placeholder="Nombre" required pattern="[A-Za-z]+">
+  <input type="text" placeholder="Apellido" required pattern="[A-Za-z]+">
+</div>
+<div>
+  <input type="number" min="18" max="80" placeholder="Edad">
+</div>
+<div>
+  <label for="Sexo"></label>
+</div>
+<div>
+  <label>
+    M
+    <input type="radio" name="sex" value="m" required>
+  </label>
+ <label>
+   F
+   <input type="radio" name="sex" value="f" required>
+ </label>
+ <Label>
+   Otro
+   <input type="radio" name="sex" value="o" required>
+ </Label>
+</div>
+<div>
+ <input type="text" placeholder="DNI" required minlength="8" pattern="[A-Za-z0-9]+">
+</div>
+<div>
+ <input type="text" placeholder="Email">
+</div>
+<div>
+ <button>Enviar</button>
+</div>
+</form>
+</body>
+</html>

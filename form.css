@@ -1,0 +1,23 @@
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input:focus:valid {
+  background: 1px solid violet;
+}
+
+input:focus:invalid {
+  background: 1px solid red;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: goldenrod;
+}
+
+button{
+  background-color: goldenrod;
+  color: chartreuse;
+  border-radius: 30px;
+}
